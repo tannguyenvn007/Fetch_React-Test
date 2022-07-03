@@ -91,6 +91,7 @@ const ViewTierBenefit = styled(Button)({
     fontWeight: 400,
     fontSize: 16,
     textTransform: 'none',
+    color: '#0062FF',
   },
 });
 

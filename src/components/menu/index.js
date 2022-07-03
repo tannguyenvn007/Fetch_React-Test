@@ -26,13 +26,15 @@ const menuList = [
 
 const Menu = () => {
   return (
-    <Wrapper>
-      {menuList.map((menu) => (
-        <IconButton key={menu.id}>
-          <img src={menu.icon} alt={UserIcon} />
-        </IconButton>
-      ))}
-    </Wrapper>
+    <>
+      <Wrapper>
+        {menuList.map((menu) => (
+          <IconButton key={menu.id}>
+            <img src={menu.icon} alt={UserIcon} />
+          </IconButton>
+        ))}
+      </Wrapper>
+    </>
   );
 };
 
